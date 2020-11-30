@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+.encabezado{
+    /* Con esta directiva al compilar, tailwind incluirá esta clase con las utilidades
+        que le hemos indicado
+    */
+    @apply text-3xl font-bold text-gray-800 mx-2 mb-3
+}
+
+@tailwind utilities;
